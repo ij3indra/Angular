@@ -1,6 +1,26 @@
-import { NbMenuItem } from '@nebular/theme';
+import {NbMenuItem} from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
+  {
+    title: 'Home',
+    icon: 'home-outline',
+    link: '/pages/iot-dashboard',
+  },
+  {
+    title: 'Generate Paper',
+    icon: 'home-outline',
+    link: '/pages/generate-paper',
+  },
+  {
+    title: 'Generate Paper (Auto)',
+    icon: 'home-outline',
+    link: '/pages/iot-dashboard',
+  },
+  {
+    title: 'Add Questions',
+    icon: 'home-outline',
+    link: '/pages/iot-dashboard',
+  },
   {
     title: 'E-commerce',
     icon: 'shopping-cart-outline',
